@@ -1,0 +1,8 @@
+
+(ns var.binding)
+
+(def foo 10)
+(binding [foo 42] foo)
+(defn print-foo [] (println foo))
+(let [foo "let foo"] (print-foo))
+
