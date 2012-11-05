@@ -1,5 +1,3 @@
-package patterns.concept
-
 object Client extends App {
   override def main(args: Array[String]) = {
     implicit val pe = new PersonEq

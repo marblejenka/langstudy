@@ -1,0 +1,11 @@
+/logs
+/bin
+/project
+/target
+/.classpath
+/.factorypath
+/.project
+/.settings
+/.history
+/.DS_Store
+/.cache

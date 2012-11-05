@@ -1,5 +1,3 @@
-package patterns.concept
-
 sealed abstract class Ordering
 case object EQ extends Ordering
 case object LT extends Ordering

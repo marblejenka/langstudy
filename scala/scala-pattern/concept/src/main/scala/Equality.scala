@@ -1,5 +1,3 @@
-package patterns.concept
-
 trait Eq[T] {
   def ==(a: T, b: T): Boolean
   def ne(a: T, b: T): Boolean = !(a == b)
